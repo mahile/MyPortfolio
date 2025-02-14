@@ -109,7 +109,7 @@ export const SOCIAL_MEDIA_LINKS = [
   },
 
   {
-    href: "https://x.com/",
+    href: "https://www.instagram.com/mahitabts/",
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
   {
