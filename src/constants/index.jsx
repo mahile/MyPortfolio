@@ -3,7 +3,6 @@ import {
   FaGithub,
   FaLinkedin,
   FaFacebook,
-  FaDiscord,
   FaInstagram,
 } from "react-icons/fa6";
 
@@ -11,22 +10,18 @@ import projectImage1 from "../assets/project1.jpeg";
 import projectImage2 from "../assets/project1.jpeg";
 import projectImage3 from "../assets/project1.jpeg";
 import projectImage4 from "../assets/project1.jpeg";
-import projectImage5 from "../assets/project1.jpeg";
-import projectImage6 from "../assets/project1.jpeg";
+
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
+
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
   { label: "Bio", href: "#bio" },
   { label: "Skills", href: "#skills" },
-  // { label: "Work Experience", href: "#work" },
-  // { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -44,15 +39,15 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com/user/personal-portfolio",
+    githubLink: "https://github.com/mahile/MyPortfolio",
   },
   {
     id: 2,
-    name: "E-Commerce Platform",
+    name: "Pharmacy Desktop app",
     description:
-      "An e-commerce web application developed using ReactJs , featuring a comprehensive product catalog, shopping cart, and checkout system.",
-    image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
+      "This is a desktop application called Pharmacy using JavaFX, which allows users to add, update, and delete medicines efficiently.",
+    image: projectImage4,
+    githubLink: "https://github.com/mahile/Pharmacy",
   },
   {
     id: 3,
@@ -64,11 +59,11 @@ export const PROJECTS = [
   },
   {
     id: 4,
-    name: "Pharmacy Desktop app",
+    name: "E-Commerce Platform",
     description:
-      "This is a desktop application called Pharmacy using JavaFX, which allows users to add, update, and delete medicines efficiently.",
-    image: projectImage4,
-    githubLink: "https://github.com/mahile/Pharmacy",
+      "An e-commerce web application developed using ReactJs , featuring a comprehensive product catalog, shopping cart, and checkout system.",
+    image: projectImage2,
+    githubLink: "https://github.com/user/ecommerce-platform",
   },
 
 ];
@@ -145,6 +140,14 @@ export const EDUCATION = [
 
 export const SOCIAL_MEDIA_LINKS = [
   {
+    href: "https://github.com/mahile",
+    icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
+  },
+  {
+    href: "https://www.linkedin.com/in/mahilet-honelign-395305339/",
+    icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
+  },
+  {
     href: "https://x.com/",
     icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
   },
@@ -156,13 +159,5 @@ export const SOCIAL_MEDIA_LINKS = [
   {
     href: "https://x.com/",
     icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://github.com/",
-    icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://www.linkedin.com/",
-    icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
