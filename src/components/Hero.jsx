@@ -30,7 +30,7 @@ const Hero = () => {
       initial={{opacity:0}}
       animate={{opacity:1}}
       transition={{duration:1}}
-      src={carlImg} width={530} height={530} alt='mah' className='rounded-3xl'/>
+      src={carlImg} width={510} height={510} alt='mah' className='rounded-3xl'/>
     </div>
     </motion.div>
     </section>

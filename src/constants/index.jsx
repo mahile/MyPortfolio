@@ -40,6 +40,7 @@ export const PROJECTS = [
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
     githubLink: "https://github.com/mahile/MyPortfolio",
+    githubLink: "https://github.com/mahile/MyPortfolio",
   },
   {
     id: 2,
@@ -70,7 +71,7 @@ export const PROJECTS = [
 
 export const BIO = [
   "Mahilet Honelign studing Software Enigneering at the University of Wolkite., where I immersed myself in the world of frontend development.",
-  "As a multi-disciplinary frontend developer,I brings a wealth of skills and expertise to my work. From my deep understanding of HTML, CSS, and JavaScript to my proficiency in modern frameworks like React and Vue.js,I possesses a versatile skill set that allows me to craft stunning and unforgettable web experiences for my clients and audiences alike.",
+  "As a multi-disciplinary frontend developer,I brings a wealth of skills and expertise to my work. From my deep understanding of HTML, CSS, and JavaScript to my proficiency in modern frameworks like React,I possesses a versatile skill set that allows me to craft stunning and unforgettable web experiences for my clients and audiences alike.",
 ];
 
 export const SKILLS = [
